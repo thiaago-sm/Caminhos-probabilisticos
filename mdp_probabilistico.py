@@ -72,11 +72,11 @@ def resetar():
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    if st.button('Start/Stop'):
+    if st.button('Sortear Caminhos'):
         toggle_simulacao()
 
 with col2:
-    if st.button('Reset'):
+    if st.button('Voltar ao inicio'):
         resetar()
 
 # Mostrar estado atual
